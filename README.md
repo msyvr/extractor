@@ -12,7 +12,7 @@ and output (json):
 
 LangExtract has a built-in visualizer. Scrolling through the document, extracted data is displayed and the associated text highlighted.
 
-![shakespeare mp4](/assets/images/shakespeare.mp4)
+https://github.com/user-attachments/assets/96aebae9-7423-4258-97a2-35ae4ce6e667
 
 ## Use
 
