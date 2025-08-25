@@ -1,6 +1,4 @@
-import os
 import webbrowser
-from pathlib import Path
 
 def view_in_browser(results_dir:str, file:str):
     vizfile = file+"_viz.html"

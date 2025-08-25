@@ -1,7 +1,5 @@
-import os
-from examples.literature import shakespeare
+from src.examples.literature import shakespeare
 import time
-from src import view_result
 
 
 def extract_data():

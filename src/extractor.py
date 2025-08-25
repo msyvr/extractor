@@ -3,10 +3,10 @@ import logging
 import os
 
 # LangExtract parameters
-model = "gpt-5-nano"
+model = os.getenv("LX_MODEL") if os.getenv("LX_MODEL") else "gpt-5-nano"
 api_key = os.getenv("OPENAI_API_KEY")
-max_workers = 6
-passes = 1
+max_workers = int(os.getenv("LX_MAX_WORKERS")) | 6
+passes = int(os.getenv("LX_MAX_PASSES")) | 1
 
 def extract_data_from_text(documents:str, prompt:str, examples:list[any]):
     """Text analysis and data extraction based on provided examples."""
