@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# local
+.venv
+.vscode
+
+# secrets
+.env
+.streamlit/*
+.streamlit
+
+## test results
+results/shakespeare**
+notes*
+
+## google examples
+examples/lx**
